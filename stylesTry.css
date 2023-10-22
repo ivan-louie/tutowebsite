@@ -1,0 +1,613 @@
+body {
+    background-color: #24252A;
+}
+
+/* Mask */
+.mask {
+    position: absolute;
+    width: 1920px;
+    height: 676px;
+    left: 0px;
+    top: -1px;
+}
+
+/* TUTO */
+.tuto {
+    position: absolute;
+    width: 204px;
+    height: 47px;
+    left: 200px;
+    top: 67px;
+    color: rgba(241, 241, 241, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* Home */
+.home {
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    left: 1219px;
+    top: 67px;
+    color: rgba(241, 241, 241, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Courses */
+.courses {
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    left: 1346px;
+    top: 67px;
+    color: rgba(241, 241, 241, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Blogs */
+.blogs {
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    left: 1473px;
+    top: 67px;
+    color: rgba(241, 241, 241, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Discussions */
+.discussions {
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    left: 1600px;
+    top: 67px;
+    color: rgba(241, 241, 241, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* LEARNING MADE EASY */
+.learning-made-easy {
+    position: absolute;
+    width: 402px;
+    height: 164px;
+    left: 1214px;
+    top: 306px;
+    color: rgba(241, 241, 241, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* TUTOLOGO.png */
+.tutologo-png-main {
+    position: absolute;
+    width: 461px;
+    height: 504px;
+    left: 729.71px;
+    top: 131.81px;
+}
+
+/* WELCOME TO */
+.welcome-to {
+    position: absolute;
+    width: 473px;
+    height: 82px;
+    left: 233px;
+    top: 349px;
+    color: rgba(241, 241, 241, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* cardContainer */
+.card-container {
+    position: absolute;
+    width: 1520px;
+    height: 775px;
+    left: 200px;
+    top: 550px;
+    border-radius: 20px;
+    background-color: rgba(241, 241, 241, 0.25);
+}
+
+/* card1 */
+.card1 {
+    position: absolute;
+    width: 399px;
+    height: 499px;
+    left: 301px;
+    top: 679px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* COURSE TITLE */
+.course-title1 {
+    position: absolute;
+    width: 198px;
+    height: 34px;
+    left: 334px;
+    top: 739px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* INFO */
+.info1 {
+    position: absolute;
+    width: 304px;
+    height: 102px;
+    left: 334px;
+    top: 842px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* TUTOLOGO.png */
+.tutologo-png1 {
+    position: absolute;
+    width: 204px;
+    height: 222px;
+    left: 399px;
+    top: 817px;
+}
+
+/* card2 */
+.card2 {
+    position: absolute;
+    width: 399px;
+    height: 499px;
+    left: 762px;
+    top: 680px;
+    border-radius: 15px;
+    background-color: rgba(105, 201, 202, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* COURSE TITLE */
+.course-title2 {
+    position: absolute;
+    width: 198px;
+    height: 34px;
+    left: 800px;
+    top: 740px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* INFO */
+.info2 {
+    position: absolute;
+    width: 304px;
+    height: 102px;
+    left: 800px;
+    top: 842px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* TUTOLOGO.png */
+.tutologo-png2 {
+    position: absolute;
+    width: 204px;
+    height: 222px;
+    left: 878px;
+    top: 817px;
+}
+
+/* card3 */
+.card3 {
+    position: absolute;
+    width: 399px;
+    height: 499px;
+    left: 1222px;
+    top: 678px;
+    border-radius: 15px;
+    background-color: rgba(239, 72, 107, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* COURSE TITLE */
+.course-title3 {
+    position: absolute;
+    width: 198px;
+    height: 34px;
+    left: 1270px;
+    top: 739px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* INFO */
+.info3 {
+    position: absolute;
+    width: 304px;
+    height: 102px;
+    left: 1270px;
+    top: 843px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* TUTOLOGO.png */
+.tutologo-png3 {
+    position: absolute;
+    width: 204px;
+    height: 222px;
+    left: 1348px;
+    top: 816px;
+}
+
+/* cardContainer2 */
+.card-container2 {
+    position: absolute;
+    width: 1520px;
+    height: 1493px;
+    left: 200px;
+    top: 1394px;
+    border-radius: 20px;
+    background-color: rgba(241, 241, 241, 0.25);
+}
+
+/* Rectangle */
+.rectangle01 {
+    position: absolute;
+    width: 592px;
+    height: 407px;
+    left: 333px;
+    top: 1652px;
+    border-radius: 0px 0px 0px 15px;
+    background-color: rgba(105, 201, 202, 1);
+}
+
+/* CONTENT TITLE1 */
+.content-title1 {
+    position: absolute;
+    width: 198px;
+    height: 34px;
+    left: 334px;
+    top: 1519px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* INFO01 */
+.info01 {
+    position: absolute;
+    width: 304px;
+    height: 102px;
+    left: 400px;
+    top: 1691px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* card */
+.card001 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 300px;
+    top: 1474px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* card */
+.card01 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 300px;
+    top: 1474px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* INFO02 */
+.info02 {
+    position: absolute;
+    width: 304px;
+    height: 102px;
+    left: 1081px;
+    top: 1694px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* card02 */
+.card02 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 995px;
+    top: 1474px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* card002 */
+.card002 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 995px;
+    top: 1474px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Rectangle02 */
+.rectangle02 {
+    position: absolute;
+    width: 592px;
+    height: 407px;
+    left: 1028px;
+    top: 1652px;
+    border-radius: 0px 0px 0px 15px;
+    background-color: rgba(239, 72, 107, 1);
+}
+
+/* CONTENT TITLE2 */
+.content-title2 {
+    position: absolute;
+    width: 198px;
+    height: 34px;
+    left: 1033px;
+    top: 1519px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* CONTENT TITLE3 */
+.content-title3 {
+    position: absolute;
+    width: 198px;
+    height: 34px;
+    left: 334px;
+    top: 2214px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* INFO06 */
+.info03 {
+    position: absolute;
+    width: 304px;
+    height: 102px;
+    left: 400px;
+    top: 2386px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* Rectangle3 */
+.rectangle03 {
+    position: absolute;
+    width: 592px;
+    height: 407px;
+    left: 333px;
+    top: 2347px;
+    border-radius: 0px 0px 0px 15px;
+    background-color: rgba(239, 72, 107, 1);
+}
+
+/* card03 */
+.card03 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 300px;
+    top: 2169px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* card003 */
+.card003 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 300px;
+    top: 2169px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* CONTENT TITLE4 */
+.content-title4 {
+    position: absolute;
+    width: 198px;
+    height: 34px;
+    left: 1033px;
+    top: 2214px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* card004 */
+.card004 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 995px;
+    top: 2169px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* card04 */
+.card04 {
+    position: absolute;
+    width: 625px;
+    height: 625px;
+    left: 995px;
+    top: 2169px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Rectangle4 */
+.rectangle04 {
+    position: absolute;
+    width: 592px;
+    height: 407px;
+    left: 1028px;
+    top: 2347px;
+    border-radius: 0px 0px 0px 15px;
+    background-color: rgba(105, 201, 202, 1);
+}
+
+/* INFO04 */
+.info04 {
+    position: absolute;
+    width: 304px;
+    height: 102px;
+    left: 1081px;
+    top: 2386px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* TUTObannerB.png */
+.tutobanner-b-png {
+    position: absolute;
+    width: 1602px;
+    height: 591px;
+    left: 123px;
+    top: 2972px;
+}

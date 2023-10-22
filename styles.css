@@ -1,0 +1,399 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  body {
+    background-color: #24252A;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    max-width: 1500px;
+    width: 90%;
+    min-height: 100vh;
+  }
+
+  .welcome, .welcomePar {
+    color: #f1f1f1;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* Container for flexboxes */
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  /* Create three unequal columns that sits next to each other */
+  .column {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    transition: all 0.3s ease 0s;
+  }
+
+  /* Left and right column */
+  .column.side {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    /* background-color:#aaa; */
+  }
+
+  /* Middle column */
+  .column.middle {
+    padding-top: 100px;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    /* background-color:#bbb; */
+  }
+
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  
+
+  /* navigation bar specific */
+  li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px 10%;
+  }
+
+  .logo {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #0088a9;
+  }
+
+  button {
+    padding: 9px;
+    background-color:  rgb(75, 240, 252);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+  button:hover {
+    background-color:  rgba(75, 240, 252, 0.8);
+
+  }
+
+  /* Style the carousel */
+  .slider-wrapper {
+    position: relative;
+    text-align: center;
+  }
+  .slider-wrapper .slide-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: auto;
+    width: auto;
+    z-index: 5;
+    color: #ecf0f1;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background: rgba(75, 240, 252, 1);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+
+  .slider-wrapper .slide-button:hover {
+    background: rgba(75, 240, 252, 0.8);
+  }
+  .slider-wrapper .slide-button#prev-slide {
+    left: -25px;
+    display: none;
+  }
+  .slider-wrapper .slide-button#next-slide {
+    right: -25px;
+  }
+
+  .slider-wrapper .image-list {
+    display: grid;
+    gap: 16px;
+    font-size: 0;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slider-wrapper .image-list .image-item {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background: rgba(75, 240, 252, 1);
+    position: relative;
+    border-radius: 4px;
+  }
+
+  .slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+  }
+
+  .slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #ecf0f1;
+    border-radius: inherit;
+    cursor: grab;
+  }
+
+  .slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+  }
+
+  .slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+  }
+
+  
+  /* Styles for mobile and tablets */
+  @media only screen and (max-width: 1023px) {
+    .slider-wrapper .slide-button {
+      display: none !important;
+    }
+    .slider-wrapper .image-list {
+      gap: 10px;
+      margin-bottom: 15px;
+      scroll-snap-type: x mandatory;
+    }
+    .slider-wrapper .image-list .image-item {
+      width: 280px;
+      height: 380px;
+    }
+    .slider-scrollbar .scrollbar-thumb {
+      width: 20%;
+    }
+  }
+
+    .bgContainer {
+      background: #33343b;
+      width: auto;
+      height: 500px;
+    }
+
+    .bgContainer2 {
+      background: #33343b;
+      width: auto;
+      height: 900px;
+    }
+
+    .introContainer {
+      background: #33343b;
+      width: auto;
+      height: 400px;
+    }
+
+    /*.introCards {
+
+    } */
+    .bannerTuto {
+      padding-top: 1600px;
+      width: auto;
+      height: auto;
+    }
+
+    /*cards */
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+      grid-gap: 40px;
+      padding: 60px 0;
+    }
+    
+    .text--medium {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #ecf0f1;
+    }
+    
+    .cards {
+      align-content: center;
+      justify-content: center;
+      grid-column: 2 / span 12;
+      display: grid;
+      grid-template-columns: repeat(12, minmax(auto, 60px));
+      grid-gap: 40px;
+      padding-top: 5%;
+    }
+    
+    .cards2 {
+      align-content: center;
+      justify-content: center;
+      grid-column: 2 / span 12;
+      display: grid;
+      grid-template-columns: repeat(12, minmax(auto, 60px));
+      grid-gap: 40px;
+      padding-top: 15%;
+    }
+
+    .card {
+      grid-column-end: span 4;
+      display: flex;
+      flex-direction: column;
+      background-color: #39393b;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+    }
+    
+    .card:hover {
+      transform: translateY(-7px);
+    }
+    
+    .card__image-container {
+      width: 100%;
+      padding-top: 56.25%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .card__image-container img {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .card__content {
+      padding: 20px;
+    }
+    
+    .card__title {
+      margin-bottom: 20px;
+    }
+    
+    .card__info {
+      display: flex;
+      align-self: end;
+      align-items: center;
+    }
+    
+    .card__price {
+      margin-left: auto;
+      padding: 5px 20px;
+      background-color: #303032;
+      border-radius: 20px;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+      .card {
+        grid-column-end: span 6;
+      }
+    }
+    
+    @media only screen and (max-width: 700px) {
+      main {
+        grid-gap: 20px;
+      }
+      .card {
+        grid-column-end: span 12;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      main {
+        grid-template-columns: 10px repeat(6, 1fr) 10px;
+        grid-gap: 10px;
+      }
+      .cards {
+        grid-column: 2 / span 6;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 20px;
+      }
+      .card {
+        grid-column-end: span 6;
+      }
+    }
+
+    .banner {
+      width: auto;
+      height: auto;
+      padding-left: 100px;
+    }
+    
