@@ -11,7 +11,8 @@
   }
 
   body {
-    background-color: #24252A;
+    background-color: #24252A !important;
+    color: #f1f1f1 !important ;
   }
 
   .logo {
@@ -42,7 +43,6 @@
   /* Create three unequal columns that sits next to each other */
   .column {
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
     transition: all 0.3s ease 0s;
   }
 
@@ -56,7 +56,6 @@
 
   /* Middle column */
   .column.middle {
-    padding-top: 100px;
     -webkit-flex: 2;
     -ms-flex: 2;
     flex: 2;
@@ -84,8 +83,8 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #ecf0f1;
-    text-decoration: none;
+    color: #ecf0f1 !important;
+    text-decoration: none !important;
   }
 
   header {
@@ -120,7 +119,7 @@
     padding: 9px;
     background-color:  rgb(75, 240, 252);
     border: none;
-    border-radius: 50px;
+    border-radius: 50px !important;
     cursor: pointer;
     transition: all 0.3s ease 0s;
   }
@@ -249,19 +248,28 @@
   }
 
     .bgContainer {
-      background: #33343b;
+      background: #33343b !important;
       width: auto;
       height: 500px;
+      padding-top: 5%;
     }
 
     .bgContainer2 {
-      background: #33343b;
+      background: #33343b !important;
       width: auto;
-      height: 900px;
     }
 
+    #blogsIntroCont {
+      background: #33343b !important;
+      width: auto;
+    }
+
+    .textBox  {
+      margin: 10px;
+      padding: 100px;
+    }
     .introContainer {
-      background: #33343b;
+      background: #33343b !important;
       width: auto;
       height: 400px;
     }
@@ -309,14 +317,14 @@
       display: grid;
       grid-template-columns: repeat(12, minmax(auto, 60px));
       grid-gap: 40px;
-      padding-top: 15%;
+      padding-top: 0px;
     }
 
     .card {
       grid-column-end: span 4;
       display: flex;
       flex-direction: column;
-      background-color: #39393b;
+      background-color: #39393b !important;
       cursor: pointer;
       transition: all 0.3s ease 0s;
     }
@@ -392,8 +400,32 @@
     }
 
     .banner {
-      width: auto;
+      max-width: 100%;
       height: auto;
-      padding-left: 100px;
+      display: block;
+      margin: auto;
     }
+  
+  #title {
+      height: 150px;
+      width: 400px;
+  }
+  
+  #board {
+      width: 360px;
+      height: 360px;
+      background-color: lightblue;
+      border: 10px solid #0c67ae;
+  
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  #board img {
+      width: 118px;
+      height: 118px;
+      border: 1px solid #0c67ae;
+  }
+
     
